@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="shopping.css">
+    <link rel="shortcut icon" href="images/pexels-fernando-arcos-190819.jpg" type="image/x-icon">
+    <title>shopping</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="title">PRODUCT LIST</div>
+            <div class="icon-cart">
+                <img src="images/trolley.png" onclick="showMenu('')">
+                <span>0</span>
+            </div>
+        </header>
+        <div class="listProducts">
+            <div class="item">
+                <img src="images/pexels-alexandra-maria-336372.jpg">
+                <h4>womens bag</h4>
+                <div class="price">$1800</div>
+                <button class="addCart">AddCart</button>
+            </div>
+        </div>
+    </div>
+    <div class="cartTab" id="nav-links">
+        <h1>shopping list</h1>
+        <div class="listCart">
+            <div class="item">
+                <div class="image">
+                    <img src="images/pexels-essow-k-1042143.jpg" >
+                </div>
+                <div class="name">
+                    name
+                </div>
+                <div class="totalPrice">$2000</div>
+                <div class="quantity">
+                    <span class="minus">-</span>
+                    <span>1</span>
+                    <span class="plus">+</span>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="display">
+            <h3>total amount</h3>
+            <div class="cart-total">$2000:00</div>
+        </div>
+        <div class="btn">
+            <button class="close" onclick="hideMenu('')">CLOSE</button>
+            <button class="checkout">CHECKOUT</button>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
